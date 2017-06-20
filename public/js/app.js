@@ -1722,7 +1722,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             var inputData = vm.addData;
             __WEBPACK_IMPORTED_MODULE_0_axios___default.a.post('api/student', inputData).then(function (response) {
                 vm.addData = { name: "", mobile: "", address: "" };
-                console.log('success');
+                //console.log('success');
             });
         }
     }

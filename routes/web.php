@@ -14,7 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('student', function () {
+    return view('welcome');
+});
 Route::group(['prefix'=>'api'],function(){
     Route::resource('student','StudentController');
 });

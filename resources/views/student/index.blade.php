@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta id="token" name="csrf-token" value="{{ csrf_token() }}">
 
-        <title>Laravel</title>
+        <title>Student</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
